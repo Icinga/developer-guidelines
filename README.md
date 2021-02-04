@@ -7,7 +7,7 @@
 
 
 ## Existing Material:
-- [Webmodul training](https://github.com/Icinga/icingaweb2-module-training) => one last commit mit verweis auf ergebnis in neuem dev guide repo
+- [Webmodul training](https://github.com/Icinga/icingaweb2-module-training) => Make one last commit with a link to this repository and archive
 - [Icinga Web Development Guide](https://github.com/Icinga/icingaweb2/issues/4109)
 - [Howto category in the forum](https://community.icinga.com/c/howto/13)
 - [Docs section: development](https://icinga.com/docs/icinga-2/latest/doc/21-development/#develop-icinga-2)
