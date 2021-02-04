@@ -34,7 +34,7 @@
 - Link to API docs for ipl*
 
 
-## umsetzung:
-- rendern wie die docs (markdown)
-- eigenes development guidelines repo, auf das verlinkt werden kann
-- mit mkdocs(?) in die doku eingepflegt
+## Implementation:
+- Same format as the rest of our documentation
+- Rendered with MkDocs
+- All references go to this repository
