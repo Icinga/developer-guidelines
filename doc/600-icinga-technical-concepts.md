@@ -218,7 +218,6 @@ The reload process was in idle wait before, and now continues to read the writte
 state file and run the event loop (checks, notifications, "events", ...). The reload
 process itself also spawns the execution helper process again.
 
-
 ## Features <a id="technical-concepts-features"></a>
 
 Features are implemented in specific libraries and can be enabled
@@ -250,7 +249,6 @@ with asynchronous task handling.
 The GraphiteWriter uses a TCP socket to communicate with the carbon cache
 daemon of Graphite. The InfluxDBWriter is instead writing bulk metric messages
 to InfluxDB's HTTP API, similar to Elasticsearch.
-
 
 ## Check Scheduler <a id="technical-concepts-check-scheduler"></a>
 
@@ -414,7 +412,6 @@ inside the `CheckerComponent` class whose handler `CheckerComponent::NextCheckCh
 deletes/inserts the next check event from the scheduling queue. This basically
 is a list with multiple indexes with the keys for scheduling info and the object.
 
-
 ## Checks<a id="technical-concepts-checks"></a>
 
 ### Check Latency and Execution Time <a id="technical-concepts-checks-latency"></a>
@@ -515,8 +512,6 @@ Service:
 	else
 		severity |= SeverityFlagUnhandled;
 ```
-
-
 
 ## Cluster <a id="technical-concepts-cluster"></a>
 

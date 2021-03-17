@@ -1,3 +1,5 @@
+// todo: add module.info
+
 # Icinga Web Module <a id="icinga-web-module"></a>
 
 ## Write your own Icinga Web 2 module
@@ -75,6 +77,7 @@ The web interface is designed to be displayed on a dashboard for weeks and even 
   * jquery-...
 
 ## Anatomy of an Icinga Web 2 module
+//Todo: rename to directory structure
 
 Icinga Web 2 follows the paradigm 'convention before configuration'. A lesson learnt from our development of Icinga Web 1: one of the best tools for XML processing is on every disk: `/bin/rm`. Those who stick to a few simple conventions will save a lot of configuration work. Basically, in Icinga Web you only have to configure paths for special cases. It is usually enough to just save a file, in the right place.
 

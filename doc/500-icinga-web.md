@@ -10,7 +10,7 @@ We should start off with a little explanation on how Icinga web development look
 
 ## Programming, Markup and Database Languages
 
-The guide should explain our used languages, i.e.
+The guide should explain our used languages and their styleguides (PSR-2, ...)
 
 **Sever-side**
 

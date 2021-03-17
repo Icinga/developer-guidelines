@@ -28,3 +28,5 @@ also checks for broken URLs.
 ```bash
 ./doc/update-links.py doc/*.md
 ```
+
+//todo: use https://github.com/Icinga/icinga-docs-tools
