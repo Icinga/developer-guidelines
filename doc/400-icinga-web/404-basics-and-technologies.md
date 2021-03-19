@@ -1,5 +1,4 @@
-
-## Basics and Technologies
+// todo: Basics and Technologies
 
 Before deep diving into writing code, we should explain necessary basics and technologies:
 

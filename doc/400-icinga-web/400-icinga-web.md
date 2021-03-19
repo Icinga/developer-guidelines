@@ -1,4 +1,4 @@
-# Icinga Web Development Guide
+// todo: this needs to be converted to an intro instead of that brainstormy cloud of ideas.
 
 ## Introduction
 

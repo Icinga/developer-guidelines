@@ -1,5 +1,4 @@
-
-## Programming, Markup and Database Languages
+// todo: Programming, Markup and Database Languages
 
 The guide should explain our used languages and their styleguides (PSR-2, ...)
 
