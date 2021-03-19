@@ -1,6 +1,3 @@
-
-## Checks<a id="technical-concepts-checks"></a>
-
 ### Check Latency and Execution Time <a id="technical-concepts-checks-latency"></a>
 
 Each check command execution logs the start and end time where

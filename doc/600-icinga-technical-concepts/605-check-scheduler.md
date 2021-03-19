@@ -1,6 +1,3 @@
-
-## Check Scheduler <a id="technical-concepts-check-scheduler"></a>
-
 The check scheduler starts a thread which loops forever. It waits for
 check events being inserted into `m_IdleCheckables`.
 

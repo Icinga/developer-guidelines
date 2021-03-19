@@ -1,6 +1,3 @@
-
-## Configuration <a id="technical-concepts-configuration"></a>
-
 ### Lexer <a id="technical-concepts-configuration-lexer"></a>
 
 The lexer stage does not understand the DSL itself, it only

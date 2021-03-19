@@ -1,6 +1,3 @@
-
-## Core <a id="technical-concepts-core"></a>
-
 ### Core: Reload Handling <a id="technical-concepts-core-reload"></a>
 
 The initial design of the reload state machine looks like this:

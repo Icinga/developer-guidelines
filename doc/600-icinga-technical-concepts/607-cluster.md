@@ -1,6 +1,3 @@
-
-## Cluster <a id="technical-concepts-cluster"></a>
-
 This documentation refers to technical roles between cluster
 endpoints.
 

@@ -1,6 +1,3 @@
-
-## Application <a id="technical-concepts-application"></a>
-
 ### CLI Commands <a id="technical-concepts-application-cli-commands"></a>
 
 The Icinga 2 application is managed with different CLI sub commands.

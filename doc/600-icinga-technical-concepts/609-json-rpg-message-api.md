@@ -1,6 +1,3 @@
-
-## JSON-RPC Message API <a id="technical-concepts-json-rpc-messages"></a>
-
 **The JSON-RPC message API is not a public API for end users.** In case you want
 to interact with Icinga, use the [REST API](12-icinga2-api.md#icinga2-api).
 

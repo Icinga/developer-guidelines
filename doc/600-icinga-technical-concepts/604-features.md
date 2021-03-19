@@ -1,6 +1,3 @@
-
-## Features <a id="technical-concepts-features"></a>
-
 Features are implemented in specific libraries and can be enabled
 using CLI commands.
 

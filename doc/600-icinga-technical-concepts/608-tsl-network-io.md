@@ -1,6 +1,3 @@
-
-## TLS Network IO <a id="technical-concepts-tls-network-io"></a>
-
 ### TLS Connection Handling <a id="technical-concepts-tls-network-io-connection-handling"></a>
 
 Icinga supports two connection directions, controlled via the `host` attribute
