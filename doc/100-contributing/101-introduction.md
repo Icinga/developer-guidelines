@@ -1,6 +1,3 @@
-
-## <a id="contributing-intro"></a> Introduction
-
 Please consider our [roadmap](https://github.com/Icinga/icinga2/milestones) and
 [open issues](https://github.com/icinga/icinga2/issues) when you start contributing
 to the project.

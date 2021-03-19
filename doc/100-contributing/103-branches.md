@@ -1,6 +1,3 @@
-
-## <a id="contributing-branches"></a> Branches
-
 Choosing a proper name for a branch helps us identify its purpose and possibly
 find an associated bug or feature.
 Generally a branch name should include a topic such as `bugfix` or `feature` followed

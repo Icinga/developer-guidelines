@@ -1,6 +1,3 @@
-
-## <a id="contributing-pull-requests"></a> Pull Requests
-
 Once you've commited your changes, please update your local master
 branch and rebase your bugfix/feature branch against it before submitting a PR.
 

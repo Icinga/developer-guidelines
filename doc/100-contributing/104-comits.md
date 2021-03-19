@@ -1,5 +1,3 @@
-## <a id="contributing-commits"></a> Commits
-
 Once you've finished your work in a branch, please ensure to commit
 your changes. A good commit message includes a short topic, additional body
 and a reference to the issue you wish to solve (if existing).

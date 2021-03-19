@@ -1,6 +1,3 @@
-
-## <a id="contributing-fork"></a> Fork the Project
-
 [Fork the project](https://help.github.com/articles/fork-a-repo/) to your GitHub account
 and clone the repository:
 

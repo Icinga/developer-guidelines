@@ -1,6 +1,3 @@
-
-## <a id="contributing-review"></a> Review
-
 #### <a id="contributing-pr-review-fixes"></a> Pull Request Review Fixes
 
 In order to amend the commit message, fix conflicts or add missing changes, you can
