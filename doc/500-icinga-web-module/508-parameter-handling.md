@@ -1,6 +1,3 @@
-
-# Parameter handling
-
 So far we have not added any parameters to our URLs. But that's just as easy. Like on the command line, Icinga Web provides simple access to `Params`. Access is as following:
 
 ```php

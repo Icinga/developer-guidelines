@@ -1,1 +1,1 @@
-add content about ARIA and colour vision deficiancy / the theme
+// todo: add content about ARIA and colour vision deficiancy / the theme

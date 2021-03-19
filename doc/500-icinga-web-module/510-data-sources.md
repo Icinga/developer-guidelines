@@ -1,6 +1,3 @@
-
-# Data handling made easy
-
 Icinga Web offers even more nice tools. One thing we still want to examine are the so-called `DataSources`. We integrate the `ArrayDatasource` and add another function to our library code:
 
 ```php

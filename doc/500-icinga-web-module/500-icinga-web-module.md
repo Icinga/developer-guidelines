@@ -1,7 +1,5 @@
 // todo: add module.info
 
-# Icinga Web Module <a id="icinga-web-module"></a>
-
 ## Write your own Icinga Web 2 module
 
 Welcome! Glad to see that you are here to write your first Icinga Web module. Icinga Web makes getting started as easy as possible. Over the next few hours we will discover how fun tinkering with Icinga Web 2 can be, with a series of practical examples.

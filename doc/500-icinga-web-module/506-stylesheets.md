@@ -1,6 +1,3 @@
-
-# But please with style!
-
 Although it is not directly related to our topic, one thing stands out: our table doesn't exactly look very flashy (yet). To improve its looks, we can easily put CSS to our module. We create a suitable directory, the nameing follows the same scheme as before:
 
     mkdir public/css

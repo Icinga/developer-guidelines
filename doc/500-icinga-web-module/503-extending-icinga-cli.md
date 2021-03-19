@@ -1,6 +1,3 @@
-
-# Extending Icinga CLI
-
 The Icinga CLI was designed to provide most of the application logic in Icinga Web 2, and its modules, on the commandline. The project aims to make the creation of cronjobs, plugins, useful tools and smaller services as easy as possible.
 
 ## Own CLI Commands

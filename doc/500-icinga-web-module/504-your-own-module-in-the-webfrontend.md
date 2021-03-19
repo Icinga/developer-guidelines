@@ -1,6 +1,3 @@
-
-# Your own module in the web frontend
-
 The __'Web'__ in Icinga Web stands for its strongest suit, which we will have a look at now. And again, __convention before configuration__ applies. Built with the classic __MVC architectural pattern__, there are controllers with actions and matching view scripts for markup and display.
 
 We have deliberately omitted the library/model separation, as each additional layer eventually increases the complexity. You could also look at the library code in many modules as a 'model', but that's a problem for the experts that come after us. Anyway, we would like to have as many well made modules as possible, ideally with a lot of reusable code, which in turn also benefits other modules.

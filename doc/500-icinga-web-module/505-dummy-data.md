@@ -1,6 +1,3 @@
-
-# We need data!
-
 With our web routes being all set up, we want to do something more meaningful with them. An application can look oh so dashing, but without useful content, it will quickly get boring. The usual workflow in an MVC environment looks like this: The `controller` gets its data with the aid of its `model`, and then passes it on to the `views` for displaying.
 
 ## Fill our view with data

@@ -1,6 +1,3 @@
-
-# Translations
-
 For a detailed description of the translation options, we can check the documentation for the `translation` module. Here we see it step by step:
 
 ```php

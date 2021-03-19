@@ -1,6 +1,3 @@
-
-# Configuration
-
 Those who develop a module would most likely want to be able to configure it too. The configuration for a module is stored under `/etc/icingaweb/modules/<modulename>`. Everything found in the `config.ini`, is accessible in the controller as follows:
 
 ```php

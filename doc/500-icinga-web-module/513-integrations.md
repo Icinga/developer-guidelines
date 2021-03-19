@@ -1,6 +1,3 @@
-
-# Using Icinga Web logic in third party software?
-
 With Icinga Web 2 we want to make the integration of third party software as easy as possible. We also want to make it easy for others to use Icinga Web logic in their software.
 
 The following call in any PHP file is enough to achieve this:

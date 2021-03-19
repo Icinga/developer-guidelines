@@ -1,6 +1,3 @@
-
-# Preparation
-
 As a little warm up for our notebooks, we'll start off with installing Icinga Web 2:
 
     https://icinga.com/docs/icingaweb2/latest/doc/02-Installation/

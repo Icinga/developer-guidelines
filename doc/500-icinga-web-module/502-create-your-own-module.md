@@ -1,6 +1,3 @@
-
-# Create your own module
-
 ## Where should I start?
 
 Probably the most important question is usually what you want to do with his module. In our training we will first experiment with the given possibilities and then implement a small practical example.

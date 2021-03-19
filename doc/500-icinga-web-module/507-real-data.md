@@ -1,6 +1,3 @@
-
-# Real data, all cleaned up
-
 As we stated earlier, a module only becomes interesting with real data. What we have done wrong, however, is that our controller gets the data itself. That is not a good practice, and might cause some problems - for example if we want to use the data on the CLI.
 
 ## Our own library
