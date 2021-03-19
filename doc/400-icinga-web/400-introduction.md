@@ -1,7 +1,5 @@
 // todo: this needs to be converted to an intro instead of that brainstormy cloud of ideas.
 
-## Introduction
-
 We should start off with a little explanation on how Icinga web development looks like and which layers are necessary in order to build a web application:
 
 * Explain frontend development (client-side)
