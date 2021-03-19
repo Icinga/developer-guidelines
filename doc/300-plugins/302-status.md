@@ -1,6 +1,4 @@
 
-#### Status <a id="service-monitoring-plugin-api-status"></a>
-
 Value | Status    | Description
 ------|-----------|-------------------------------
 0     | OK        | The check went fine and everything is considered working.

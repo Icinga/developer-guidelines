@@ -1,6 +1,3 @@
-
-#### Performance Data Metrics <a id="service-monitoring-plugin-api-performance-data-metrics"></a>
-
 Performance data metrics must be appended to the plugin output with a preceding `|` character.
 The schema is as follows:
 

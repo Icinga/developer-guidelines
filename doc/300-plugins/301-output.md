@@ -1,6 +1,3 @@
-
-#### Output <a id="service-monitoring-plugin-api-output"></a>
-
 The output should be as short and as detailed as possible. The
 most common cases include:
 

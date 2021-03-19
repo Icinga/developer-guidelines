@@ -1,6 +1,3 @@
-
-#### Verbose <a id="service-monitoring-plugin-api-verbose"></a>
-
 Plugins should provide a verbose mode with `-v` or `--verbose` in order
 to show more detailed log messages. This helps to debug and analyse the
 flow and execution steps inside the plugin.

@@ -1,6 +1,3 @@
-
-### Create a new Plugin <a id="service-monitoring-plugin-new"></a>
-
 Sometimes an existing plugin does not satisfy your requirements. You
 can either kindly contact the original author about plans to add changes
 and/or create a patch.

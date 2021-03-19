@@ -1,6 +1,3 @@
-
-#### Thresholds <a id="service-monitoring-plugin-api-thresholds"></a>
-
 A plugin calculates specific values and may decide about the exit state on its own.
 This is done with thresholds - warning and critical values which are compared with
 the actual value. Upon this logic, the exit state is determined.

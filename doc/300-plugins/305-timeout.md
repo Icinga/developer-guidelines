@@ -1,6 +1,3 @@
-
-#### Timeout <a id="service-monitoring-plugin-api-timeout"></a>
-
 Icinga has a safety mechanism where it kills processes running for too
 long. The timeout can be specified in [CheckCommand objects](09-object-types.md#objecttype-checkcommand)
 or on the host/service object.

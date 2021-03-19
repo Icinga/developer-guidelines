@@ -1,6 +1,3 @@
-
-#### Versions <a id="service-monitoring-plugin-api-versions"></a>
-
 Plugins should provide a version via `-V` or `--version` parameter
 which is bumped on releases. This allows to identify problems with
 too old or new versions on the community support channels.

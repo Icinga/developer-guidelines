@@ -1,5 +1,3 @@
-## <a id="contributing-patches-documentation"></a> Documentation Patches
-
 The documentation is written in GitHub flavored [Markdown](https://guides.github.com/features/mastering-markdown/).
 It is located in the `doc/` directory and can be edited with your preferred editor. You can also
 edit it online on GitHub.
