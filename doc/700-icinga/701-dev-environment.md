@@ -1,6 +1,3 @@
-
-## Development Environment <a id="development-environment"></a>
-
 ### Linux Dev Environment <a id="development-linux-dev-env"></a>
 
 Based on CentOS 7, we have an early draft available inside the Icinga Vagrant boxes:

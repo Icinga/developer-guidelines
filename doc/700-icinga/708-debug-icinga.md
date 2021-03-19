@@ -1,6 +1,3 @@
-
-## Debug Icinga 2 <a id="development-debug"></a>
-
 This chapter targets all users who have been asked by developers to provide
 a stack trace or coredump if the application crashed. It is also useful
 for developers working with different debuggers.

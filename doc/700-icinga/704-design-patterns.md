@@ -1,6 +1,3 @@
-
-### Design Patterns <a id="development-develop-design-patterns"></a>
-
 Icinga 2 heavily relies on object-oriented programming and encapsulates common
 functionality into classes and objects. It also uses modern programming techniques
 to e.g. work with shared pointer memory management.
@@ -27,7 +24,7 @@ db\_ido\_pgsql | IDO database driver for PgSQL.
 mysql\_shin    | Library stub for linking against the MySQL client libraries.
 pgsql\_shim    | Library stub for linking against the PgSQL client libraries.
 
-#### Class Compiler <a id="development-develop-design-patterns-class-compiler"></a>
+### Class Compiler <a id="development-develop-design-patterns-class-compiler"></a>
 
 Another thing you will recognize are the `.ti` files which are compiled
 by our own class compiler into actual source code. The meta language allows

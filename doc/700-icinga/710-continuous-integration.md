@@ -1,6 +1,3 @@
-
-## Continuous Integration <a id="development-ci"></a>
-
 Icinga uses the integrated CI capabilities on GitHub in the development workflow.
 This ensures that incoming pull requests and branches are built on create/push events.
 Contributors and developers can immediately see whether builds fail or succeed and

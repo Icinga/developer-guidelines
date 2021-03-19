@@ -1,6 +1,3 @@
-
-### GDB Pretty Printers <a id="development-advanced-gdb-pretty-printer"></a>
-
 Install the `boost`, `python` and `icinga2` pretty printers. Absolute paths are required,
 so please make sure to update the installation paths accordingly (`pwd`).
 

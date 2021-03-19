@@ -1,6 +1,3 @@
-
-### Style Guide <a id="development-develop-styleguide"></a>
-
 Overview of project files:
 
 File Type      | File Name/Extension | Description
@@ -29,7 +26,7 @@ Depending on the file type, this must be a comment.
 # Icinga 2 | (c) 2012 Icinga GmbH | GPLv2+
 ```
 
-#### Code Formatting <a id="development-develop-code-formatting"></a>
+### Code Formatting <a id="development-develop-code-formatting"></a>
 
 **Tabs instead of spaces.** Inside Visual Studio, choose to keep tabs instead of
 spaces. Tabs should use 4 spaces indent by default, depending on your likings.
@@ -77,7 +74,7 @@ String ConfigObjectUtility::CreateObjectConfig(const Type::Ptr& type, const Stri
 - Else branches always start in the same line after the closing curly brace.
 
 
-#### Code Comments <a id="development-develop-code-comments"></a>
+### Code Comments <a id="development-develop-code-comments"></a>
 
 Add comments wherever you think that another developer will have a hard
 time to understand the complex algorithm. Or you might have forgotten
@@ -98,7 +95,7 @@ use that information as a summary and link over to it on purpose.
  */
 ```
 
-#### Function Docs <a id="development-develop-function-docs"></a>
+### Function Docs <a id="development-develop-function-docs"></a>
 
 Function header documentation must be added. The current code basis
 needs rework, future functions must provide this.
@@ -130,7 +127,7 @@ to provide on-point docs to fully understand all parameters and the
 function's purpose in the same spot.
 
 
-#### Header <a id="development-develop-styleguide-header"></a>
+### Header <a id="development-develop-styleguide-header"></a>
 
 Only include other headers which are mandatory for the header definitions.
 If the source file requires additional headers, add them there to avoid
@@ -143,7 +140,7 @@ The included header order is important.
 - Third, include third-party and external library headers, e.g. openssl and boost.
 - Fourth, include STL headers.
 
-#### Source <a id="development-develop-styleguide-source"></a>
+### Source <a id="development-develop-styleguide-source"></a>
 
 The included header order is important.
 
@@ -154,7 +151,7 @@ The included header order is important.
 
 Always use an empty line after the header include parts.
 
-#### Namespace <a id="development-develop-styleguide-namespace"></a>
+### Namespace <a id="development-develop-styleguide-namespace"></a>
 
 The icinga namespace is used globally, as otherwise we would need to write `icinga::Utility::FormatDateTime()`.
 
@@ -172,7 +169,7 @@ complicate the code.
 	auto context (std::make_shared<ssl::context>(ssl::context::sslv23));
 ```
 
-#### Functions <a id="development-develop-styleguide-functions"></a>
+### Functions <a id="development-develop-styleguide-functions"></a>
 
 Ensure to pass values and pointers as const reference. By default, all
 values will be copied into the function scope, and we want to avoid this
@@ -198,7 +195,7 @@ by reference to the function. The inner function can then append values.
 Do not use a global shared resource here, unless this is locked by the caller.
 
 
-#### Conditions and Cases <a id="development-develop-styleguide-conditions"></a>
+### Conditions and Cases <a id="development-develop-styleguide-conditions"></a>
 
 Prefer if-else-if-else branches. When integers are involved,
 switch-case statements increase readability. Don't forget about `break` though!
@@ -251,7 +248,7 @@ lookup into a utility class.
 
 Once a unit test is written, everything works as expected in the future.
 
-#### Locks and Guards <a id="development-develop-locks-guards"></a>
+### Locks and Guards <a id="development-develop-locks-guards"></a>
 
 Lock access to resources where multiple threads can read and write.
 Icinga objects can be locked with the `ObjectLock` class.
@@ -267,7 +264,7 @@ Object locks and guards must be limited to the scope where they are needed. Othe
 	}
 ```
 
-#### Objects and Pointers <a id="development-develop-objects-pointers"></a>
+### Objects and Pointers <a id="development-develop-objects-pointers"></a>
 
 Use shared pointers for objects. Icinga objects implement the `Ptr`
 typedef returning an `intrusive_ptr` for the class object (object.hpp).
@@ -278,7 +275,7 @@ Use raw pointers with care!
 Some methods and classes require specific shared pointers, especially
 when interacting with the Boost library.
 
-#### Value Types <a id="development-develop-styleguide-value-types"></a>
+### Value Types <a id="development-develop-styleguide-value-types"></a>
 
 Icinga has its own value types. These provide methods to allow
 generic serialization into JSON for example, and other type methods
@@ -296,7 +293,7 @@ which are made available in the DSL too.
 - Prefer STL containers for internal non-user interfaces. Icinga value types add a small overhead which may decrease performance if e.g. the function is called 100k times.
 - `Array::FromVector` and variants implement conversions, use them.
 
-#### Utilities <a id="development-develop-styleguide-utilities"></a>
+### Utilities <a id="development-develop-styleguide-utilities"></a>
 
 Don't re-invent the wheel. The `Utility` class provides
 many helper functions which allow you e.g. to format unix timestamps,
@@ -305,7 +302,7 @@ search in filesystem paths.
 Also inspect the Icinga objects, they also provide helper functions
 for formatting, splitting strings, joining arrays into strings, etc.
 
-#### Libraries <a id="development-develop-styleguide-libraries"></a>
+### Libraries <a id="development-develop-styleguide-libraries"></a>
 
 2.11 depends on [Boost 1.66](https://www.boost.org/doc/libs/1_66_0/).
 Use the existing libraries and header-only includes
@@ -363,7 +360,7 @@ requirements must be fulfilled:
 - The code is proven to be robust and the GitHub repository is alive, or has 1k+ stars. Good libraries also provide a user list, if e.g. Ceph is using it, this is a good candidate.
 
 
-#### Log <a id="development-develop-styleguide-log"></a>
+### Log <a id="development-develop-styleguide-log"></a>
 
 Icinga allows the user to configure logging backends, e.g. syslog or file.
 
@@ -404,7 +401,7 @@ see what's going one, but remember to change this back to `debug`
 or remove it entirely.
 
 
-#### Goto <a id="development-develop-styleguide-goto"></a>
+### Goto <a id="development-develop-styleguide-goto"></a>
 
 Avoid using `goto` statements. There are rare occasions where
 they are allowed:
@@ -413,7 +410,7 @@ they are allowed:
 - Event processing and C interfaces.
 - Question/Answer loops within interactive CLI commands.
 
-#### Typedef and Auto Keywords <a id="development-develop-styleguide-typedef-auto"></a>
+### Typedef and Auto Keywords <a id="development-develop-styleguide-typedef-auto"></a>
 
 Typedefs allow developers to use shorter names for specific types,
 classes and structs.
@@ -470,7 +467,7 @@ required though.
 
 
 
-#### Whitespace Cleanup <a id="development-develop-choose-editor-whitespaces"></a>
+### Whitespace Cleanup <a id="development-develop-choose-editor-whitespaces"></a>
 
 Patches must be cleaned up and follow the indent style (tabs instead of spaces).
 You should also remove any trailing whitespaces.

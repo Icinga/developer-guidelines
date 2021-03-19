@@ -1,7 +1,4 @@
-
-### Preparations <a id="development-develop-prepare"></a>
-
-#### Choose your Editor <a id="development-develop-choose-editor"></a>
+### Choose your Editor <a id="development-develop-choose-editor"></a>
 
 Icinga 2 can be developed with your favorite editor. Icinga developers prefer
 these tools:
@@ -14,14 +11,14 @@ these tools:
 Editors differ on the functionality. The more helpers you get for C++ development,
 the faster your development workflow will be.
 
-#### Get to know the architecture <a id="development-develop-get-to-know-the-architecture"></a>
+### Get to know the architecture <a id="development-develop-get-to-know-the-architecture"></a>
 
 Icinga 2 can run standalone or in distributed environments. It contains a whole lot
 more than a simple check execution engine.
 
 Read more about it in the [Technical Concepts](19-technical-concepts.md#technical-concepts) chapter.
 
-#### Get to know the code <a id="development-develop-get-to-know-the-code"></a>
+### Get to know the code <a id="development-develop-get-to-know-the-code"></a>
 
 First off, you really need to know C++ and portions of C++11 and the boost libraries.
 Best is to start with a book or online tutorial to get into the basics.

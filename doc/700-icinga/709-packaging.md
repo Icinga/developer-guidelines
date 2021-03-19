@@ -1,6 +1,3 @@
-
-## Package Builds <a id="development-package-builds"></a>
-
 This documentation is explicitly meant for packagers and the Icinga
 build infrastructure.
 

@@ -1,7 +1,3 @@
-
-
-## Test Icinga 2 <a id="development-tests"></a>
-
 ### Snapshot Packages (Nightly Builds) <a id="development-tests-snapshot-packages"></a>
 
 Icinga provides snapshot packages as nightly builds from [Git master](https://github.com/icinga/icinga2).

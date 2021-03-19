@@ -1,7 +1,4 @@
-
-### Build Tools <a id="development-develop-builds-tools"></a>
-
-#### CMake <a id="development-develop-builds-cmake"></a>
+### CMake <a id="development-develop-builds-cmake"></a>
 
 In its early development stages in 2012, Icinga 2 was built with autoconf/automake
 and separate Windows project files. We've found this very fragile, and have changed
@@ -15,7 +12,7 @@ The most common benefits:
 * Separate binary build directories, the actual source tree stays clean.
 * CMake automatically generates a Visual Studio project file `icinga2.sln` on Windows.
 
-#### Unity Builds <a id="development-develop-builds-unity-builds"></a>
+### Unity Builds <a id="development-develop-builds-unity-builds"></a>
 
 Another thing you should be aware of: Unity builds on and off.
 

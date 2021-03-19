@@ -1,6 +1,3 @@
-
-### Unit Tests <a id="development-develop-tests"></a>
-
 New functions and classes must implement new unit tests. Whenever
 you decide to add new functions, ensure that you don't need a complex
 mock or runtime attributes in order to test them. Better isolate
