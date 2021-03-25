@@ -1,0 +1,1 @@
+This chapter provides hints on Icinga for Windows
