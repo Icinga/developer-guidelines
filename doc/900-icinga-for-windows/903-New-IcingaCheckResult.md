@@ -1,4 +1,4 @@
-# Developer Guide: New-IcingaCheckResult
+# New-IcingaCheckResult
 
 Below you will find a list of functions and detailed descriptions including use cases for Cmdlets and features the PowerShell Framework provides.
 
